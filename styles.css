@@ -1,0 +1,512 @@
+body {
+    background-color: #f9f9f9;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px;
+    padding: 1em 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav:hover{
+    color: #0077cc;
+}
+
+.hero {
+    display: flex;
+    padding: 4em 2em;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #e6f0ff, #ffffff);
+}
+
+.hero img {
+    max-width: 600px;
+    margin-top: 2em;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+    font-size : 1.2em;
+    color: #666;
+
+}
+
+.hero-content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1.5em;
+    padding: 0.7em 1.5em;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+.services {
+ display: flex;
+ gap: 2em;
+ justify-content: center;
+ padding: 4em 2em;
+ background-color: #fff;
+}
+
+.service {
+    background-color: #f2f2f2;
+    padding: 2em;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.service h3 {
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 2em;
+    font-size: 0.9em;
+}
+
+.about-image {
+ flex: 1 1 35%;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 100px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.03);
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 4em 2em;
+    background: linear-gradient(to right, #f5f7fa, #e4ecf2);
+    color: #333;
+}
+
+.about-section {
+    padding: 4em 1.5em;
+    background-color: #f9f9f9;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: flex-start;
+    padding: 2rem;
+    }
+
+.about-text h2 {
+font-size: 2em;
+margin-bottom: 1em;
+max-width: 600px;
+}
+
+.about-text p {
+    line-height: 1.7;
+    margin-bottom: 1.2em;
+    color: #333 ;
+}
+
+.about-text a {
+    color: #0077cc;
+     text-decoration: none;
+}
+
+.about-text a:hover {
+    text-decoration: underline;
+}
+
+.about-text h2 {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    color: #1a1a1a;
+    position: relative;
+}
+
+.about-text h2:: {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #333;
+    margin-top: 0.5em;
+}
+
+.about-text blockquote {
+    font-style: italic;
+    color: #666;
+    border-left: 4px solid #aaa;
+    padding-left: 1em;
+    margin-top: 2em;
+}
+
+.logo {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.logo-font {
+ font-family: 'Cinzel', serif;
+ font-size: 2.5em;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ color: #222;
+}
+
+.logo-font::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #222;
+    margin-top: 0.5em;
+}
+
+
+body {
+    font-family: 'poppins', serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.portfolio {
+    max-width: 1100px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+.portfolio h2{
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: #222;
+}
+
+.portfolio-item {
+    background: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-item h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+    font-family: 'Cinzel' serif;
+    color: #444;
+}
+
+
+@media screen and (max-width: 768px) {
+  .portfolio-item {
+    padding: 1rem;
+  }
+
+  .portfolio h2 {
+    font-size: 1.7rem;
+  }
+
+}
+
+.image-scroll {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 10px;
+}
+
+
+.image-scroll img {
+    width: 600px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: #f8f8f8;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    position: relative;
+    padding: 4px;
+}
+
+.main-navr {
+    color: #0077cc;
+}
+
+.main-nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #0077cc;
+    transition: width 0.3s ease;
+}
+
+.main-nav a:hover::after {
+    width: 100%;
+}
+
+
+.contact-section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    animation: fadeIn 1s ease-in-out;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.contact-section p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation: slideUp 1s ease;
+}
+
+.contact-form label {
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0,8rem;
+    border: 1px solid #ccc
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 0.9rem;
+    background-color: #f39c12;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0,3s ease;
+}
+
+.contact-form button:hover {
+    background-color: d78a0f;
+}
+
+.social-links {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.social-links h3 {
+    margin-top: 1rem;
+    color: #222;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #e1306c;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: color o.3s ease;
+}
+
+.social-links a:hover {
+    color: #c13584;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
+
+footer {
+    text-align: center;
+    padding: 1.2rem;
+    background-color: #222;
+    color: white;
+    margin-top: 3rem;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(30px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+    0% { opacity: 0; transform: translaterY(50px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+fade-in {
+  animation: fadeIn 1.2s ease forwards;
+}
+
+.fade-in-slow {
+  animation: fadeIn 2s ease forwards;
+}
+
+.slide-up {
+  animation: slideUp 1s ease forwards;
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin: 0.5rem 0;
+  }
+
+  .contact-section {
+    padding: 1.2rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95rem;
+  }
+
+  .social-links a {
+    font-size: 1rem;
+  }
+}
+
+.tap {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: #f8f8f8;
+}
+
+.tap a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    position: relative;
+    padding: 4px;
+}
+
+.tap {
+    color: #0077cc;
+}
+
+.tap a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #0077cc;
+    transition: width 0.3s ease;
+}
